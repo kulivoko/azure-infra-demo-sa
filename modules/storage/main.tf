@@ -12,9 +12,7 @@ terraform {
 
   # Remote state on Azure Storage with blob lease locking.
   # Backend values injected via -backend-config=envs/<env>/backend.tfbackend
-  backend "azurerm" {
-    use_oidc = true
-  }
+  backend "azurerm" {}
 }
 
 provider "azurerm" {
