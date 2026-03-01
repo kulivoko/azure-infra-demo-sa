@@ -1,4 +1,4 @@
-resource_group_name  = "rg-tfstate"
-storage_account_name = "stterraformprod"
+resource_group_name  = "rg-operation"
+storage_account_name = "stterraformprodmb"
 container_name       = "tfstate"
-key                  = "prod.terraform.tfstate"
+key                  = "prod.tfstate"
